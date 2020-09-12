@@ -1,0 +1,33 @@
+/*
+
+
+
+
+
+
+
+
+ return (
+    <React.Fragment>
+      <section id="top">
+        <h1>ContenT section</h1>
+
+        <div className="someText">
+          {posts.map((post, i) => {
+            return (
+              <div key={i} style={{ marginBottom: 50 }}>
+                <h3 style={{ marginBottom: 0 }}>{post.title}</h3>
+                <p>{post.paragraphs}</p>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    </React.Fragment>
+  );
+
+
+
+
+
+*/
