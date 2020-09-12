@@ -4,7 +4,7 @@
 
 <br>
 
-<!-- [<img src="./src/img/preview.gif">](https://nadiamariduena.github.io/react-responsive1/) -->
+[<img src="./src/img/preview.gif">](https://nadiamariduena.github.io/react-hide-show-onscroll/)
 
 <br>
 <br>
@@ -13,7 +13,7 @@
 
 <p> I will continue this project based in the Navigation Bar i created here:</p>
 
-<!-- [<img src="./src/img/uglywebsite.gif">](https://nadiamariduena.github.io/react-responsive1/) -->
+[<img src="./src/img/preview-previous.gif">](https://nadiamariduena.github.io/react-navbar-change-onscroll1/)
 
 <br>
 

@@ -7,6 +7,7 @@ const Content = () => {
       "I love art and everything related to it above all else, and I admit that my inclination is to favour it before any other occupation of the mind. But it is not here what art is to me, but rather how it relates to the human spirit as a whole ...",
     link:
       "https://thetrueaesthete.art/blog/2017/12/22/quick-thoughts-friedrich-schiller-on-the-aesthetic-education-of-man",
+    link2: "https://youtu.be/GFoT6UUNLZc",
   };
 
   const posts = Array(5).fill(manyPost);
@@ -31,6 +32,8 @@ const Content = () => {
               <div key={i} style={{ margin: 50 }}>
                 <p>{item.paragraphs}</p>
                 <a href={item.link}>Discover Light</a>
+                <br />
+                <a href={item.link2}>Listen</a>
               </div>
             );
           })}
