@@ -1,6 +1,6 @@
 ## ( in progress )
 
-## How to show Navbar when scroll up and hide Navbar when scroll down.
+## Show Navbar when scroll up and hide Navbar when scroll down.
 
 <br>
 
@@ -8,10 +8,17 @@
 
 <br>
 <br>
+<br>
+<br>
 
-# React Navbar Change Background Color on Scroll
+### React Navbar Change Background Color on Scroll
+
+<br>
+<br>
 
 <p> I will continue this project based in the Navigation Bar i created here:</p>
+
+<br>
 
 [<img src="./src/img/preview-previous.gif">](https://nadiamariduena.github.io/react-navbar-change-onscroll1/)
 
