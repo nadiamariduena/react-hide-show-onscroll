@@ -1,5 +1,3 @@
-## ( in progress )
-
 ## Show Navbar when scroll up and hide Navbar when scroll down.
 
 <br>
@@ -7,6 +5,9 @@
 [<img src="./src/img/preview.gif">](https://nadiamariduena.github.io/react-hide-show-onscroll/)
 
 <br>
+
+~~No copyright infringement intended, All pictures used in this exercise are **_only_** for educational purposes.~~
+
 <br>
 <br>
 <br>
