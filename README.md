@@ -25,7 +25,8 @@ componentDidMount() {
     window.removeEventListener("scroll", this.handleScroll);
   }
   handleScroll = () => {
-    // getBoundingClientRect , will get the size and the position of the div, you need it for when the user will scroll: getBoundingClientRect().top > this.state.scrollPos,
+   /* getBoundingClientRect , will get the size and the position of the div,
+    you need it for when the user will scroll: getBoundingClientRect().top > this.state.scrollPos, */
     this.setState({
       scrollPos: document.body.getBoundingClientRect().top,
       show: document.body.getBoundingClientRect().top > this.state.scrollPos,
