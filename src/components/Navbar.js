@@ -50,7 +50,7 @@ export default class Navbar extends React.Component {
                               ReactDOM.render(<Header />, document.getElementById('root'));
 
                                 ---------------
-                              ** componentWillUnmount
+                              ** componentWillUnmount()
                                 ---------------
 
                                   componentWillUnmount is the last function to be called immediately 
@@ -58,6 +58,40 @@ export default class Navbar extends React.Component {
                                   to perform clean-up for any DOM-elements or timers created in 
                                   componentWillMount . At a picnic, componentWillUnmount 
                                   corresponds to just before you pick up your picnic blanket.
+
+
+                                --------------
+                              **getBoundingClientRect()
+                                ---------------
+
+                                Getting Size and Position of an Element in React
+                                Getting the size and position of elements in React is not a great story. 
+                                Each option I researched has at least one gotcha. I’ll share the best options 
+                                I came up with and explain pros and cons of each.
+                                 First let’s take a look at the basic way to get an element’s size and position in React.
+
+
+                                Getting the Size and Position
+                                You can use Element.getClientRects() and Element.getBoundingClientRect() 
+                                to get the size and position of an element. In React, you’ll first need to
+                                get a reference to that element. Here’s an example of how you might do that.
+
+                                https://www.pluralsight.com/tech-blog/getting-size-and-position-of-an-element-in-react/
+
+
+                    **  THE PROBLEM 
+
+
+
+                        This basic approach will fail if the size or position of the element is 
+                        dynamic, such as in the following scenarios.
+
+                        The element contains images and other resources which load asynchronously
+                        Animations
+                        Dynamic content
+                        Window resizing
+
+
 
 
 
@@ -70,7 +104,7 @@ export default class Navbar extends React.Component {
     window.removeEventListener("scroll", this.handleScroll);
   }
   handleScroll = () => {
-    // console.log(document.body.getBoundingClientRect());
+    // getBoundingClientRect , will get the size and the position of the div, you need it for when the user will scroll: getBoundingClientRect().top > this.state.scrollPos,
     this.setState({
       scrollPos: document.body.getBoundingClientRect().top,
       show: document.body.getBoundingClientRect().top > this.state.scrollPos,
